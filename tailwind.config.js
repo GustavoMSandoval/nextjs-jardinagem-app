@@ -5,7 +5,7 @@ module.exports = {
   ],
   theme: {
     extend: {
-      'promofix-blue': '#063345'    
+       'greenish-white':'#f8fff8' 
     },
     screen: {
       
