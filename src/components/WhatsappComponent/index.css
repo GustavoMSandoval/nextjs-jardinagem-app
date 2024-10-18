@@ -1,0 +1,22 @@
+.whats-app {
+    position: fixed;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 52px;
+    height: 55px;
+    bottom: 40px;
+    padding: 1px;
+    background-color: #25d366;
+    color: #FFFF;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 3px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+    right: 12px;
+  }
+  svg {
+    padding: 5px;
+  }
