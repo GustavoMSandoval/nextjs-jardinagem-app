@@ -5,7 +5,8 @@ module.exports = {
   ],
   theme: {
     extend: {
-       'greenish-white':'#f8fff8' 
+      colors: { 'greenish-white':'#f8fff8' },
+      fontFamily: {'headerLinkFont':['Karla', 'sans-serif']},
     },
     screen: {
       

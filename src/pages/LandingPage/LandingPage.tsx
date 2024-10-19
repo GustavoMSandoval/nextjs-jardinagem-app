@@ -1,13 +1,13 @@
 import React from 'react';
 
-import LandingPageHeader from '../../components/layout/landing-page-header';
+import LandingPageHeader from '../../components/Layout/landing-page-header';
 
 
 
 const LandingPage = () => {
     return (
         <>
-         <LandingPageHeader />
+         <LandingPageHeader/>
         </>
 
     );
