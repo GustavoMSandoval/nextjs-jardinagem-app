@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function LandingPageManutencao() {
+export default function LandingPageClients() {
   return (
     <div></div> 
   )

@@ -93,7 +93,7 @@ export default function LandingPageHeader() {
               </svg>
             </button>
           </div>
-          <div className="px-4 py-3">
+          <div className="px-4 py-3 bg-[#f8fff8] h-full">
             {navLinks.map((item) => (
               <a
                 key={item}
