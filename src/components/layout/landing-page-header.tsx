@@ -70,7 +70,7 @@ export default function LandingPageHeader() {
         <div
           className={`fixed top-0 right-0 h-full w-64 bg-white shadow-lg transform transition-transform duration-300 ease-in-out ${
             isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'
-          }`}
+          } z-[999]`}
         >
           <div className="flex justify-between items-center px-4 py-3 bg-[#f8fff8] text-[#8bb38d]">
             <span className="text-lg font-medium">Menu</span>
