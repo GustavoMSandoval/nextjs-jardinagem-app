@@ -3,6 +3,6 @@ import ParallaxComponent from '../elementsComponents/ParallaxComponent/ParallaxC
 
 export default function LandingPageAbout() {
   return (
-    <ParallaxComponent subtitle="jardins & cia" title="PAISAGISMO E JARDINAGEM"/>
+    <ParallaxComponent backgroundImage="url('/images/backgroundImages/paisagismo.jpg')" subtitle="jardins & cia" title="PAISAGISMO E JARDINAGEM"/>
   )
 }
