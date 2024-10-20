@@ -1,3 +1,11 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+
+* {
+  overflow-x: hidden;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +43,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.carousel-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.client-slide {
+  padding: 0;  /* Remove padding around slides */
+  margin: 0 auto;  /* Center align slides */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
