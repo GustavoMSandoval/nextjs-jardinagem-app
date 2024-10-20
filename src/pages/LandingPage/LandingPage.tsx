@@ -4,6 +4,7 @@ import LandingPageHeader from '../../components/Layout/landing-page-header';
 import LandingPageServices from '../../components/Layout/landing-page-services';
 import LandingPageAbout from '../../components/Layout/landing-page-about';
 import LandingPageProjects from '../../components/Layout/landing-page-projects';
+import LandingPageTerceirizacao from '../../components/Layout/landing-page-terceirizacao';
 
 
 
@@ -14,6 +15,7 @@ const LandingPage = () => {
          <LandingPageAbout/>
          <LandingPageServices/>
          <LandingPageProjects/>
+         <LandingPageTerceirizacao/>
         </>
 
     );

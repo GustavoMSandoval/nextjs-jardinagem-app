@@ -38,7 +38,7 @@ function JobsComponent() {
   ]
 
   return (
-    <div className='flex flex-col justify-center md:flex-row lg:flex-row my-20  gap-[10vw]'>
+    <div className='flex flex-col justify-center md:flex-row lg:flex-row my-30  gap-[10vw]'>
       <div className=''>
           {jobsLeft.map((job, index) => (
             <JobCardComponent
