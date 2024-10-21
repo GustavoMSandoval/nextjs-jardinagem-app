@@ -53,8 +53,8 @@ export default function LandingPageClients() {
       
       {/* Text on the left (or top in responsive) */}
       <div className="flex flex-col items-start w-full md:w-1/3 mb-10 md:mb-0">
-        <h2 className="text-left text-[48px] uppercase mb-10">nossos clientes</h2>
-        <p className="text-left">
+        <h2 className="text-left text-[48px] my-10  border-b-2 border-black uppercase ">nossos clientes</h2>
+        <p className="text-left text-[#7f7f7f]">
           Aqui estão alguns dos nossos parceiros de negócios que confiam em nossos serviços.
           Trabalhamos juntos para alcançar os melhores resultados.
         </p>
