@@ -35,7 +35,7 @@ export default function LandingPageHeader() {
   ];
 
   return (
-    <header className='bg-[#f8fff8] flex items-center justify-around p-5 relative'>
+    <header className=' fixed top-0 left-0 w-full z-[999] bg-[#f8fff8] flex items-center justify-around p-5'>
       <WhatsappComponent />
       <img className='w-40 lg:w-80' src="/images/logo.png" alt="Logo" /> {/* Adjusted logo size for mobile */}
 
