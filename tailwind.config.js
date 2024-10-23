@@ -5,7 +5,11 @@ module.exports = {
   ],
   theme: {
     extend: {
-      'promofix-blue': '#063345'    
+      colors: { 'greenish-white':'#f8fff8' },
+      fontFamily: {
+        'headerLinkFont':['Oswald', 'sans-serif'],
+        'karlaFont':['Karla','sans-serif'],
+      },
     },
     screen: {
       

@@ -1,7 +1,8 @@
 import React from 'react';
+import ParallaxComponent from '../elementsComponents/ParallaxComponent/ParallaxComponent';
 
 export default function LandingPageAbout() {
   return (
-    <div></div> 
+    <ParallaxComponent backgroundImage="url('/images/backgroundImages/paisagismo.jpg')" subtitle="jardins & cia" title="PAISAGISMO E JARDINAGEM" buttonText="contato"/>
   )
 }
