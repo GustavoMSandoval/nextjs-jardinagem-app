@@ -2,6 +2,7 @@ import React from 'react';
 import ParallaxComponent from '../elementsComponents/ParallaxComponent/ParallaxComponent';
 import ButtonComponent from '../elementsComponents/ButtonComponent/ButtonComponent';
 import ProjectCardComponent from '../elementsComponents/ProjectCardComponent/ProjectCardComponent';
+import ServiceCardComponent from '../elementsComponents/ServiceCardComponent/ServiceCardComponent';
 
 export default function LandingPageProjects() {
 
@@ -37,6 +38,7 @@ export default function LandingPageProjects() {
         </div>
         <ButtonComponent style=" text-white bg-[#bdb76b] hover:opacity-[53%]" text="Fale com um especialista"/>
       </div>
+      <ServiceCardComponent imageRightDirection style="bg-[#f5f2f0]" linkImg="https://jardinsecia.com.br/wp-content/uploads/2023/05/background-chairs-colors-601169.jpg" title="comercial" description="projetos para empresas, shoppings, restaurantes, clubes" buttonText="quero contratar"/>
     </> 
   )
 }
