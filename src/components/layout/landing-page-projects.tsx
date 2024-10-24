@@ -3,6 +3,8 @@ import ParallaxComponent from '../elementsComponents/ParallaxComponent/ParallaxC
 import ButtonComponent from '../elementsComponents/ButtonComponent/ButtonComponent';
 import ProjectCardComponent from '../elementsComponents/ProjectCardComponent/ProjectCardComponent';
 import ServiceCardComponent from '../elementsComponents/ServiceCardComponent/ServiceCardComponent';
+import ServiceCardCarouselComponent from '../elementsComponents/ServiceCardCarousel/ServiceCardCarousel';
+
 
 export default function LandingPageProjects() {
 
@@ -25,10 +27,23 @@ export default function LandingPageProjects() {
     },
   ];
 
+  const imagesTop = [
+    "../images/images_cards/Screenshot_3.jpg",
+    "../images/images_cards/mesa-de-jantar-vintage-e-casa-vintage-scaled.jpg",
+    "../images/images_cards/paisagismo-jardinagem-jardinsecia1.jpg"
+  ]
+
+  const imagesbottom = [
+    "../images/images_cards/swimming-pool-resort-scaled.jpg",
+    "../images/images_cards/paisagismo-jardinagem-jardinsecia9.jpg",
+    "../images/images_cards/cadeiras1.jpg"
+  ];
+
+  
   return (
     <>
       <ParallaxComponent backgroundImage="url('https://jardinsecia.com.br/wp-content/uploads/2023/05/paisagismo-jardinagem-jardinsecia5.jpg')" title="Projetos" text="As perspectivas são elaboradas em conjunto com o contratante, afim de agregar ideias que além de modernizar o ambiente, deixam características exclusivas para cada projeto." buttonText="entre em contato"/>
-      <div className='flex flex-col items-center'>
+      <div className='flex flex-col items-center p-[50px]'>
         <div className='flex  flex-wrap  items-center justify-center'>
           {
             itens.map((item, index) => (
@@ -38,9 +53,21 @@ export default function LandingPageProjects() {
         </div>
         <ButtonComponent style=" text-white bg-[#bdb76b] hover:opacity-[53%]" text="Fale com um especialista"/>
       </div>
-      <ServiceCardComponent  style="bg-[#f5f2f0]" linkImg="https://jardinsecia.com.br/wp-content/uploads/2023/05/background-chairs-colors-601169.jpg" title="comercial" description="projetos para empresas, shoppings, restaurantes, clubes" buttonText="quero contratar"/>
+      <ServiceCardCarouselComponent
+        images={imagesTop}
+        title="residencial"
+        description="paisagismo, jardim e manutenção" 
+        linkText="envie sua mensagem"
+        buttonText="quero contratar"
+        style="bg-[#f5f2f0]"/>
       <ServiceCardComponent imageRightDirection style="bg-[#f5f2f0]" linkImg="https://jardinsecia.com.br/wp-content/uploads/2023/05/background-chairs-colors-601169.jpg" title="comercial" description="projetos para empresas, shoppings, restaurantes, clubes" buttonText="quero contratar"/>
-      <ServiceCardComponent  style="bg-[#f5f2f0]" linkImg="https://jardinsecia.com.br/wp-content/uploads/2023/05/background-chairs-colors-601169.jpg" title="comercial" description="projetos para empresas, shoppings, restaurantes, clubes" buttonText="quero contratar"/>
+      <ServiceCardCarouselComponent
+        images={imagesbottom}
+        title="Condomínios"
+        description="Paisagismo, jardim e manutenção para condomínios"
+        linkText="Envie sua mensagem"
+        buttonText="Quero contratar"
+        style="bg-[#f5f2f0]"/>
     </> 
   )
 }

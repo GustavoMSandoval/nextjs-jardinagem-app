@@ -25,7 +25,7 @@ function TerceirizacaoCardComponent() {
             <ButtonComponent style="text-white bg-[#9abd6b] hover:bg-[#b1b968] hover:opacity-[53%] mx-0" text="quero contratar"/><br/>
             <LinkComponent style="" text="envie sua mensagem"/>
         </div>
-        <div className="grid grid-cols-2 w-1/2 gap-0 h-9">
+        <div className="grid grid-cols-2 w-full xl:w-1/2 gap-0 h-9">
           <div className="grid grid-rows-2 w-full">
             {imagesLeft.map((image, index)=>(
               <img key={index} className='w-full' src={image} alt="" />
