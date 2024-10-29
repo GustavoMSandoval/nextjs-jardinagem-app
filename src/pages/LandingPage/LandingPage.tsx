@@ -13,10 +13,10 @@ const LandingPage = () => {
     return (
         <>
          <LandingPageHeader/>
-         <LandingPageAbout/>
-         <LandingPageServices/>
-         <LandingPageProjects/>
-         <LandingPageTerceirizacao/>
+         <div id="sobre"><LandingPageAbout/></div>
+         <div id="serviços"><LandingPageServices/></div>
+         <div id="projetos"><LandingPageProjects/></div>
+         <div id="terceirização"><LandingPageTerceirizacao/></div>
          <LandingPageClients/>
         </>
 

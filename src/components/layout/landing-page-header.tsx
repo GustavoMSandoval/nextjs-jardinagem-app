@@ -58,7 +58,7 @@ export default function LandingPageHeader() {
           <ul className='flex space-x-4'>
             {navLinks.map((item) => (
               <li key={item}>
-                <a href="#" className='text-[#8bb38d] leading-[24px] md:leading-[28px] text-[12px] lg:text-[17px] hover:text-[#6b9b60] uppercase font-headerLinkFont'>
+                <a href={`#${item}`} className='text-[#8bb38d] leading-[24px] md:leading-[28px] text-[12px] lg:text-[17px] hover:text-[#6b9b60] uppercase font-headerLinkFont'>
                   {item}
                 </a>
               </li>
