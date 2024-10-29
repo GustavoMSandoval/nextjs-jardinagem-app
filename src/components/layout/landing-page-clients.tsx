@@ -49,7 +49,7 @@ export default function LandingPageClients() {
   };
 
   return (
-    <div className="flex flex-col-reverse md:flex-row justify-between items-start p-20 bg-[#e3edd0] mt-[600px] md:mt-[860px] xl:mt-[28px]">
+    <div className="flex flex-col-reverse md:flex-row justify-between items-start p-20 bg-[#e3edd0] mt-[300px] sm:mt-[600px] md:mt-[860px] xl:mt-[28px]">
       
       {/* Text on the left (or top in responsive) */}
       <div className="flex flex-col items-start w-full md:w-1/3 mb-10 md:mb-0">

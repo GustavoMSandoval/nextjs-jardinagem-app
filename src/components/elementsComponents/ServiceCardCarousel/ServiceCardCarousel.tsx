@@ -43,7 +43,7 @@ const ServiceCardCarouselComponent: React.FC<ServiceCardCarouselProps> = ({
       } ${imageBottomDirection ? 'flex-col-reverse' : ''}`}
     >
       {/* Image Carousel */}
-      <div className="md:w-1/2">
+      <div className="w-full md:w-1/2">
         <Slider {...settings}>
           {images.map((image, index) => (
             <div key={index}>
