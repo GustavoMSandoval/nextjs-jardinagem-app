@@ -28,7 +28,7 @@ export default function LandingPageProjects() {
   ];
 
   const imagesTop = [
-    "../images/images_cards/Screenshot_3.jpg",
+    "../images/images_cards/mesa-scaled.jpg",
     "../images/images_cards/mesa-de-jantar-vintage-e-casa-vintage-scaled.jpg",
     "../images/images_cards/paisagismo-jardinagem-jardinsecia1.jpg"
   ]

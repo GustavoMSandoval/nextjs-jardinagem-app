@@ -34,6 +34,7 @@ const ServiceCardCarouselComponent: React.FC<ServiceCardCarouselProps> = ({
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
+
   };
 
   return (
@@ -43,16 +44,15 @@ const ServiceCardCarouselComponent: React.FC<ServiceCardCarouselProps> = ({
       } ${imageBottomDirection ? 'flex-col-reverse' : ''}`}
     >
       {/* Image Carousel */}
-      <div className="w-full md:w-1/2">
+      <div className="w-full h-full md:w-1/2 md:h-1/2 overflow-hidden">
         <Slider {...settings}>
           {images.map((image, index) => (
-            <div key={index}>
-              <img
-                className="w-full h-full object-cover"
-                src={image}
-                alt={`Slide ${index + 1}`}
-              />
-            </div>
+           <img
+             key={index}
+             className="w-full h-full object-cover flex-shrink-0 flex-grow-0"
+             src={image}
+             alt={`Image ${index + 1}`}
+           />
           ))}
         </Slider>
       </div>
