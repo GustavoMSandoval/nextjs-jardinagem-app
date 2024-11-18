@@ -96,8 +96,8 @@ export default function LandingPageHeader() {
           <div className="px-4 py-3 bg-[#f8fff8] h-full">
             {navLinks.map((item) => (
               <a
-                key={item}
-                href="#"
+              key={item}
+              href={`#${item}`}
                 className="block text-[#8bb38d] leading-[24px] md:leading-[28px] text-[16px] md:text-[18px] hover:bg-[#f8fff8] hover:text-[#6b9b60] uppercase font-headerLinkFont px-3 py-2 rounded-md"
               >
                 {item}
