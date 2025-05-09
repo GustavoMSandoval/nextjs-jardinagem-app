@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
+/* eslint-disable react/style-prop-object */
 import React from 'react';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
