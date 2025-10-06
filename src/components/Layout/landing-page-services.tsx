@@ -1,3 +1,4 @@
+/* eslint-disable react/style-prop-object */
 import React from 'react';
 import ServiceCardComponent from '../elementsComponents/ServiceCardComponent/ServiceCardComponent';
 import JobsComponent from '../MasterComponents/JobsComponent';
