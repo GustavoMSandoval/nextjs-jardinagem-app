@@ -1,5 +1,5 @@
 import React from 'react'
-import './index.css'
+import '../../styles/whatsapp.css';
 
 export default function WhatsappComponent() {
   return (
